@@ -1,5 +1,3 @@
-<!-- @format -->
-
 # Multi Colors
 
 Multiple color hexes calculator

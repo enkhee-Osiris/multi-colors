@@ -25,10 +25,11 @@
     "web-vitals": "^0.2.4"
   },
   "devDependencies": {
-    "react-scripts": "4.0.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10"
+    "@testing-library/user-event": "^12.1.10",
+    "react-scripts": "4.0.1",
+    "sass": "^1.29.0"
   },
   "scripts": {
     "start": "PUBLIC_URL='/' react-scripts start",

@@ -1,5 +1,3 @@
-<!-- @format -->
-
 BSD 3-Clause License
 
 Copyright (c) 2020, Enkh-Erdene (Энх-Эрдэнэ) All rights reserved.
