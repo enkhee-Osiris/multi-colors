@@ -1,15 +1,22 @@
 // -*- mode: rjsx -*-
-
-import {useDarkMode} from './hooks';
+import {useState} from 'react';
+import {Header, ColorEditor, ColorBox} from './components';
 
 function App() {
-  const [theme, toggleTheme] = useDarkMode();
+  const [colors, setColors] = useState([]);
+
+  const handleColors = colors => {
+    setColors(colors);
+  };
 
   return (
-    <div className="App">
-      <div>CURRENT THEME: {theme}</div>
-      <button onClick={toggleTheme}>Click</button>
-    </div>
+    <>
+      <Header />
+      <main>
+        <ColorEditor onColors={handleColors} />
+        <ColorBox colors={colors} />
+      </main>
+    </>
   );
 }
 
